@@ -59,7 +59,6 @@ a{
     top: 150px;
     left: 30px;
     right: 30px;
-    /* height: 600px; */
     overflow: auto;
     color: hsl(240, 6%, 50%);
 }
@@ -104,6 +103,7 @@ footer{
     color: white;
     position: absolute;
     bottom: 0;
+    align-self: center;
 
 }
 
@@ -125,14 +125,14 @@ footer{
     .faq-container{
         width: 70vw;
         height: 70pvh;
-        padding: 1em 5em 1em 20em ;
+        padding: 1em 5em 4em 20em ;
         margin:-50px auto;
         
                
     }
     .img-container{
         top: 250px;
-        left: 150px;
+        left: 200px;
     }
 }
 
