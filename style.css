@@ -125,9 +125,9 @@ footer{
     .faq-container{
         width: 70vw;
         height: 70pvh;
-        padding: 1em 5em 4em 20em ;
+        padding: 1em 5em 4em 25em ;
         margin:-50px auto;
-        
+        font-size: 1.1rem;
                
     }
     .img-container{
