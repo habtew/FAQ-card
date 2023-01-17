@@ -9,7 +9,7 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
     margin: 0;
     background-color: hsl(273, 75%, 66%);
-    max-height: 100vh;
+    height: 100vh;
     padding: 1em;
     font-size: 12px;
     display: flex;
@@ -59,7 +59,7 @@ a{
     top: 150px;
     left: 30px;
     right: 30px;
-    height: 600px;
+    /* height: 600px; */
     overflow: auto;
     color: hsl(240, 6%, 50%);
 }
@@ -99,13 +99,11 @@ h3:hover{
 }
 
 footer{
-    position: fixed;
-    bottom: 10px;
-    left: 0;
-    right:0; 
     margin-top: 10px;
     padding: 1em;
     color: white;
+    position: absolute;
+    bottom: 0;
 
 }
 
@@ -126,7 +124,7 @@ footer{
     }
     .faq-container{
         width: 70vw;
-        height: 70vhx;
+        height: 70pvh;
         padding: 1em 5em 1em 20em ;
         margin:-50px auto;
         
@@ -140,11 +138,12 @@ footer{
 
 @media (max-height: 750px){
     .faq-container{
-        height: 500px;
+        height: 450px;
         top: 90px;
     }
     .img-container{
-        top: 5px
+        top: 0px;
     }
+    
 
 }
