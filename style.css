@@ -1,0 +1,146 @@
+/* general style */
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    background-color: hsl(273, 75%, 66%);
+    max-height: 100vh;
+    padding: 1em;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* layout */
+
+/* main{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+     color: hsl(240, 6%, 45%);
+} */
+
+.img-container{
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    right: auto;
+    left:70px;
+    z-index: 1;
+}
+.pattern-img{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+.faq-container{
+    background-color: white;
+    text-align: left;
+    padding: 10em 1.5em 2em;
+    margin-top: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    right: 30px;
+    height: 600px;
+    overflow: auto;
+    color: hsl(240, 6%, 50%);
+}
+
+
+.line{
+    display: inline-block;
+    width: 100%;
+    border: .5px solid hsl(240, 5%, 95%);
+}
+
+.title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-block: 1em;
+    color: black;
+}
+
+h3{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+h3:hover{
+    color: rgba(255, 0,0,.5);
+}
+
+.rotate-img{
+    transform: rotate(180deg);
+}
+
+.hide{
+    display: none;
+}
+
+footer{
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right:0; 
+    margin-top: 10px;
+    padding: 1em;
+    color: white;
+
+}
+
+@media (max-width: 1150px){
+    body{
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1150px){
+    body{
+        background: hsl(240, 73%, 65%);
+    }
+    main{
+        margin: 0 auto;
+        background: white;
+    }
+    .faq-container{
+        width: 70vw;
+        height: 70vhx;
+        padding: 1em 5em 1em 20em ;
+        margin:-50px auto;
+        
+               
+    }
+    .img-container{
+        top: 250px;
+        left: 150px;
+    }
+}
+
+@media (max-height: 750px){
+    .faq-container{
+        height: 500px;
+    }
+
+}
