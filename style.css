@@ -141,6 +141,10 @@ footer{
 @media (max-height: 750px){
     .faq-container{
         height: 500px;
+        top: 90px;
+    }
+    .img-container{
+        top: 5px
     }
 
 }
